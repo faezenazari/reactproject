@@ -1,0 +1,80 @@
+.container {
+ width: 100%;
+ position: relative;
+}
+
+.container img{
+ width: 100%;
+
+}
+
+.textContainer{
+ position: absolute;
+ top: 150px;
+ left: 170px;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.textContainer h1 {
+ font-size: 4rem;
+}
+
+.textContainer p {
+ font-size: 2rem;
+
+}
+
+.text{
+ color: palevioletred;
+}
+
+@media (max-width:1200px){
+
+
+ .textContainer h1 {
+  font-size: 3rem;
+ }
+ 
+ .textContainer p {
+  font-size: 1.5rem;
+  font-weight: bold;
+ 
+ }
+}
+
+@media (max-width:900px){
+
+ .textContainer{
+  top: 60px;
+  left: 170px;
+  
+ }
+ .textContainer h1 {
+  font-size: 2rem;
+ }
+ 
+ .textContainer p {
+  font-size: 1rem;
+  font-weight: bold;
+ 
+ }
+}
+
+@media (max-width:400px){
+
+ .textContainer{
+  top: 60px;
+  left: 170px;
+  
+ }
+ .textContainer h1 {
+  font-size: 1.5rem;
+ }
+ 
+ .textContainer p {
+  font-size: 1rem;
+  font-weight: bold;
+ 
+ }
+}
+

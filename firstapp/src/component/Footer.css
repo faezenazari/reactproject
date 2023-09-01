@@ -1,0 +1,10 @@
+.FooterContainer{
+ height: 50px;
+ background-color: rgb(159, 159, 159);
+ text-align: center;
+}
+
+.FooterContainer p{
+ line-height: 50px;
+ font-weight: bold;
+}

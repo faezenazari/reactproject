@@ -1,0 +1,52 @@
+.searchContainer{
+background-color: #30c0e4;
+display: flex;
+padding: 80px 150px;
+justify-content:space-between;
+align-items: center;
+
+}
+
+.searchContainer p{
+ font-size: 4rem;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ color: aliceblue;
+ font-weight: bold;
+}
+
+.searchContainer input{ 
+ border-radius: 10px;
+ width: 300px;
+ height: 40px;
+ padding: 2px 0 2px 5px;
+ }
+
+ .searchContainer input::placeholder{
+  font-size: 1.5rem;
+
+
+
+ }
+
+ @media (max-width:1300px){
+  .searchContainer p{
+   font-size: 2rem;
+  }
+
+  .searchContainer{
+   display:inline-block;
+   background-color: #30c0e4;
+   padding: 80px 100px;
+   justify-content:space-between;
+   align-items: center;
+   width: 100%;
+  }
+
+  .searchContainer input{
+   width: 250px;
+  }
+ }
+
+ 
+
+ 
